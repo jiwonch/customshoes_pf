@@ -20,7 +20,7 @@ a {
 
 #wrapHeader{
     width: 100%;
-    height: 90px;
+    height: 110px;
     background-color: black;
 }
 
@@ -31,8 +31,9 @@ a {
 }
 
 #wrapHeader header img{
-    width: 250px;
+    width: 150px;
     height: 80px;
+    margin-top: 15px;
 }
 
 
@@ -45,11 +46,11 @@ a {
 
 #wrap1 form{
     width: 900px;
-    height: 800px;
+    height: 400px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -60,6 +61,7 @@ a {
     width: 200px;
     text-align: center;
     height: auto;
+    margin-top: 150px;
 }
 
 #loginEmail{
@@ -84,4 +86,29 @@ a {
 #loginPw::placeholder{
     color: #fff;
     text-align: center;
+}
+
+#wrap1 form input:last-child  {
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+}
+
+#snsLogin{
+    width: 300px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#snsLogin img{
+    width: 50px;
+    height: 50px;
+}
+
+#snsLogin img:hover{
+    background-color: rgba(0, 0, 255, 0.6);
+    border-radius: 50%;
 }
